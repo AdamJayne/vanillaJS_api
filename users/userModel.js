@@ -1,4 +1,3 @@
-
 class User {
 
   constructor(name, age) {
@@ -16,7 +15,6 @@ class Users {
   }
 
   userLogin(username, password) {
-    
     let found = this.users.forEach(user => {
       if(username == user.username && password == user.password){
         return {
